@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4RrhiNt/i+mKf0Z15sNTBtjbZT6QM+VHrIDLAE7bQERimMyfKGCyQfIG/G1q92QcWpiR3vn062pD9yscIFRtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
