@@ -27,3 +27,9 @@ C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxis
 C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\obj\Debug\net5.0\ref\LifecycleManagementAPI.dll
 C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\obj\Debug\net5.0\LifecycleManagementAPI.pdb
 C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\obj\Debug\net5.0\LifecycleManagementAPI.genruntimeconfig.cache
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\simon\OneDrive\Meine Dateien\Studium\05_StudiumWS20\06_VirtuellerPraxisbericht\LifecycleManagementAPI\LifecycleManagementAPI\LifecycleManagementAPI\bin\Debug\net5.0\API.xml
