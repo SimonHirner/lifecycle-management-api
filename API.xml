@@ -19,6 +19,56 @@
             database table Devices
             </summary>
         </member>
+        <member name="P:LifecycleManagementAPI.Context.Employees">
+            <summary>
+            database table Employees
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Activities">
+            <summary>
+            database table Activities
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Laptops">
+            <summary>
+            database table Laptops
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Phones">
+            <summary>
+            database table Phones
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Servers">
+            <summary>
+            database table Servers
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Workstations">
+            <summary>
+            database table Workstations
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Disposals">
+            <summary>
+            database table Disposals
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Maintenances">
+            <summary>
+            database table Maintenances
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Operations">
+            <summary>
+            database table Operations
+            </summary>
+        </member>
+        <member name="P:LifecycleManagementAPI.Context.Stocks">
+            <summary>
+            database table Stocks
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.CategorieController">
             <summary>
             This endpoint manages all operations for categories.
