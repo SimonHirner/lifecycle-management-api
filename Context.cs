@@ -1,4 +1,4 @@
-using LifecycleManagementAPI.Controllers;
+using LifecycleManagementAPI.DataObjects;
 using Microsoft.EntityFrameworkCore;
 
 namespace LifecycleManagementAPI
@@ -17,16 +17,16 @@ namespace LifecycleManagementAPI
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<Category>()
+            builder.Entity<Model>()
                 .HasMany(c => c.Devices)
-                .WithOne(a => a.Category)
-                .HasForeignKey(a => a.CategoryId);
+                .WithOne(a => a.Model)
+                .HasForeignKey(a => a.ModelId);
         }
 
         /// <summary>
         /// database table Categories
         /// </summary>
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Model> Categories { get; set; }
 
         /// <summary>
         /// database table Devices

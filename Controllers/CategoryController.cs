@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LifecycleManagementAPI.DataObjects;
 
 namespace LifecycleManagementAPI.Controllers
 {
@@ -28,7 +29,7 @@ namespace LifecycleManagementAPI.Controllers
         /// <returns></returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public ActionResult<Category[]> GetAllCategories()
+        public ActionResult<Model[]> GetAllCategories()
         {
             return Ok(context.Categories.ToArray());
         }

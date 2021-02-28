@@ -1,5 +1,5 @@
 using System;
-using LifecycleManagementAPI.Controllers;
+using LifecycleManagementAPI.DataObjects;
 
 namespace LifecycleManagementAPI
 {
@@ -10,15 +10,16 @@ namespace LifecycleManagementAPI
         {
 
             //Initialize test category
-            Category testCategory = new Category()
+            Model testCategory = new Laptop()
             {
-                Name = "Notebook"
+                ModelName = "MacBook Pro",
+                Manufacturer = "Apple"
             };
 
             Device testDevice = new Device()
             {
-                Name = "MacBook Pro",
-                CategoryId = 1
+                SerialNumber = "ZDX168918502",
+                ModelId = 1
             };
 
             context.Categories.Add(testCategory);
