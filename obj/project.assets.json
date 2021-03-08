@@ -739,19 +739,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon\\.nuget\\packages\\": {}
+    "C:\\Users\\Simon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI.csproj",
       "projectName": "LifecycleManagementAPI",
-      "projectPath": "C:\\Users\\simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI.csproj",
-      "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\obj\\",
+      "projectPath": "C:\\Users\\Simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI.csproj",
+      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Simon\\OneDrive\\Meine Dateien\\Studium\\05_StudiumWS20\\06_VirtuellerPraxisbericht\\LifecycleManagementAPI\\LifecycleManagementAPI\\LifecycleManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -820,7 +820,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
