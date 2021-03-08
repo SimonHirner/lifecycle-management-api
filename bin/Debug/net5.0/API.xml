@@ -85,6 +85,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.GetActivity(System.Int32)">
+            <summary>
+            Returns the activity with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.AddActivity(LifecycleManagementAPI.DataObjects.Activity)">
+            <summary>
+            Adds a activity.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.UpdateActivity(LifecycleManagementAPI.DataObjects.Activity)">
+            <summary>
+            Updates a activity.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.DeleteActivity(System.Int32)">
+            <summary>
+            Deletes a activity with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.DisposalController">
             <summary>
             This endpoint manages all operations for disposals.
@@ -95,6 +117,28 @@
             Returns all disposals.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DisposalController.GetDisposal(System.Int32)">
+            <summary>
+            Returns the disposal with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DisposalController.AddDisposal(LifecycleManagementAPI.DataObjects.Disposal)">
+            <summary>
+            Adds a disposal.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DisposalController.UpdateDisposal(LifecycleManagementAPI.DataObjects.Disposal)">
+            <summary>
+            Updates a disposal.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DisposalController.DeleteDisposal(System.Int32)">
+            <summary>
+            Deletes a disposal with the given id
+            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.MaintenanceController">
             <summary>
@@ -107,6 +151,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.MaintenanceController.GetMaintenance(System.Int32)">
+            <summary>
+            Returns the maintenance with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.MaintenanceController.AddMaintenance(LifecycleManagementAPI.DataObjects.Maintenance)">
+            <summary>
+            Adds a maintenance.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.MaintenanceController.UpdateMaintenance(LifecycleManagementAPI.DataObjects.Maintenance)">
+            <summary>
+            Updates a maintenance.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.MaintenanceController.DeleteMaintenance(System.Int32)">
+            <summary>
+            Deletes a maintenance with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.OperationController">
             <summary>
             This endpoint manages all operations for operations.
@@ -117,6 +183,28 @@
             Returns all operations.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.OperationController.GetOperation(System.Int32)">
+            <summary>
+            Returns the operation with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.OperationController.AddOperation(LifecycleManagementAPI.DataObjects.Operation)">
+            <summary>
+            Adds a operation.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.OperationController.UpdateOperation(LifecycleManagementAPI.DataObjects.Operation)">
+            <summary>
+            Updates a operation.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.OperationController.DeleteOperation(System.Int32)">
+            <summary>
+            Deletes a operation with the given id
+            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.StockController">
             <summary>
@@ -129,6 +217,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.StockController.GetStock(System.Int32)">
+            <summary>
+            Returns the stock with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.StockController.AddStock(LifecycleManagementAPI.DataObjects.Stock)">
+            <summary>
+            Adds a stock.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.StockController.UpdateStock(LifecycleManagementAPI.DataObjects.Stock)">
+            <summary>
+            Updates a stock.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.StockController.DeleteStock(System.Int32)">
+            <summary>
+            Deletes a stock with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.DeviceController">
             <summary>
             This endpoint manages all operations for devices.
@@ -139,6 +249,28 @@
             Returns all devices.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DeviceController.GetDevice(System.Int32)">
+            <summary>
+            Returns the device with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DeviceController.AddDevice(LifecycleManagementAPI.DataObjects.Device)">
+            <summary>
+            Adds a device.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DeviceController.UpdateDevice(LifecycleManagementAPI.DataObjects.Device)">
+            <summary>
+            Updates a device.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DeviceController.DeleteDevice(System.Int32)">
+            <summary>
+            Deletes a device with the given id
+            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.EmployeeController">
             <summary>
@@ -151,6 +283,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.EmployeeController.GetEmployee(System.Int32)">
+            <summary>
+            Returns the employee with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.EmployeeController.AddEmployee(LifecycleManagementAPI.DataObjects.Employee)">
+            <summary>
+            Adds a employee.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.EmployeeController.UpdateEmployee(LifecycleManagementAPI.DataObjects.Employee)">
+            <summary>
+            Updates a employee.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Deletes a employee with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.ManufacturerController">
             <summary>
             This endpoint manages all operations for manufacturers.
@@ -161,6 +315,28 @@
             Returns all manufacturers.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ManufacturerController.GetManufacturer(System.Int32)">
+            <summary>
+            Returns the manufacturer with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ManufacturerController.AddManufacturer(LifecycleManagementAPI.DataObjects.Manufacturer)">
+            <summary>
+            Adds a manufacturer.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ManufacturerController.UpdateManufacturer(LifecycleManagementAPI.DataObjects.Manufacturer)">
+            <summary>
+            Updates a manufacturer.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ManufacturerController.DeleteManufacturer(System.Int32)">
+            <summary>
+            Deletes a manufacturer with the given id
+            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.LaptopController">
             <summary>
@@ -173,6 +349,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.LaptopController.GetLaptop(System.Int32)">
+            <summary>
+            Returns the laptop with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.LaptopController.AddLaptop(LifecycleManagementAPI.DataObjects.Laptop)">
+            <summary>
+            Adds a laptop.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.LaptopController.UpdateLaptop(LifecycleManagementAPI.DataObjects.Laptop)">
+            <summary>
+            Updates a laptop.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.LaptopController.DeleteLaptop(System.Int32)">
+            <summary>
+            Deletes a laptop with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.ModelController">
             <summary>
             This endpoint manages all operations for models.
@@ -183,6 +381,28 @@
             Returns all models.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ModelController.GetModel(System.Int32)">
+            <summary>
+            Returns the model with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ModelController.AddModel(LifecycleManagementAPI.DataObjects.Model)">
+            <summary>
+            Adds a model.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ModelController.UpdateModel(LifecycleManagementAPI.DataObjects.Model)">
+            <summary>
+            Updates a model.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ModelController.DeleteModel(System.Int32)">
+            <summary>
+            Deletes a model with the given id
+            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.PhoneController">
             <summary>
@@ -195,6 +415,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.PhoneController.GetPhone(System.Int32)">
+            <summary>
+            Returns the phone with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.PhoneController.AddPhone(LifecycleManagementAPI.DataObjects.Phone)">
+            <summary>
+            Adds a phone.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.PhoneController.UpdatePhone(LifecycleManagementAPI.DataObjects.Phone)">
+            <summary>
+            Updates a phone.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.PhoneController.DeletePhone(System.Int32)">
+            <summary>
+            Deletes a phone with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.ServerController">
             <summary>
             This endpoint manages all operations for servers.
@@ -206,6 +448,28 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ServerController.GetServer(System.Int32)">
+            <summary>
+            Returns the server with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ServerController.AddServer(LifecycleManagementAPI.DataObjects.Server)">
+            <summary>
+            Adds a server.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ServerController.UpdateServer(LifecycleManagementAPI.DataObjects.Server)">
+            <summary>
+            Updates a server.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ServerController.DeleteServer(System.Int32)">
+            <summary>
+            Deletes a server with the given id
+            </summary>
+        </member>
         <member name="T:LifecycleManagementAPI.Controllers.WorkstationController">
             <summary>
             This endpoint manages all operations for workstations.
@@ -216,6 +480,28 @@
             Returns all workstations.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.WorkstationController.GetWorkstation(System.Int32)">
+            <summary>
+            Returns the workstation with a given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.WorkstationController.AddWorkstation(LifecycleManagementAPI.DataObjects.Workstation)">
+            <summary>
+            Adds a workstation.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.WorkstationController.UpdateWorkstation(LifecycleManagementAPI.DataObjects.Workstation)">
+            <summary>
+            Updates a workstation.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.WorkstationController.DeleteWorkstation(System.Int32)">
+            <summary>
+            Deletes a workstation with the given id
+            </summary>
         </member>
     </members>
 </doc>

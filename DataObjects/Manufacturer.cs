@@ -8,7 +8,7 @@ namespace LifecycleManagementAPI.DataObjects
     public class Manufacturer
     {
         [Key]
-        public int ManufacturereId { get; set; }
+        public int ManufacturerId { get; set; }
 
         [Required]
         [MinLength(1)]
