@@ -10,28 +10,28 @@ using LifecycleManagementAPI.DataObjects;
 namespace LifecycleManagementAPI.Controllers
 {
     /// <summary>
-    /// This endpoint manages all operations for categories.
+    /// This endpoint manages all operations for Laptops.
     /// </summary>
-    [Route("api/v1/categories")]
+    [Route("api/v1/models/laptops")]
     [ApiController]
-    public class CategorieController : ControllerBase
+    public class LaptopController : ControllerBase
     {
         private Context context;
-        public CategorieController(Context context)
+        public LaptopController(Context context)
         {
             this.context = context;
             this.context.Database.EnsureCreated();
         }
 
         /// <summary>
-        /// Returns all categories.
+        /// Returns all Laptops.
         /// </summary>
         /// <returns></returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public ActionResult<Model[]> GetAllCategories()
+        public ActionResult<Laptop[]> GetAllLapTops()
         {
-            return Ok(context.Categories.ToArray());
+            return Ok(context.Laptops.ToArray());
         }
     }
 }

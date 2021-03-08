@@ -9,11 +9,6 @@
             Database context that allows us to specify the tables of a database
             </summary>
         </member>
-        <member name="P:LifecycleManagementAPI.Context.Categories">
-            <summary>
-            database table Categories
-            </summary>
-        </member>
         <member name="P:LifecycleManagementAPI.Context.Devices">
             <summary>
             database table Devices
@@ -69,14 +64,68 @@
             database table Stocks
             </summary>
         </member>
-        <member name="T:LifecycleManagementAPI.Controllers.CategorieController">
+        <member name="P:LifecycleManagementAPI.Context.Manufacturers">
             <summary>
-            This endpoint manages all operations for categories.
+            database table Stocks
             </summary>
         </member>
-        <member name="M:LifecycleManagementAPI.Controllers.CategorieController.GetAllCategories">
+        <member name="P:LifecycleManagementAPI.Context.Models">
             <summary>
-            Returns all categories.
+            database table Stocks
+            </summary>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.ActivityController">
+            <summary>
+            This endpoint manages all operations for activities.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.GetAllActivities">
+            <summary>
+            Returns all activities.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.DisposalController">
+            <summary>
+            This endpoint manages all operations for disposals.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.DisposalController.GetAllDisposals">
+            <summary>
+            Returns all disposals.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.MaintenanceController">
+            <summary>
+            This endpoint manages all operations for maintenances.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.MaintenanceController.GetAllMaintenances">
+            <summary>
+            Returns all maintenances.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.OperationController">
+            <summary>
+            This endpoint manages all operations for operations.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.OperationController.GetAllOperations">
+            <summary>
+            Returns all operations.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.StockController">
+            <summary>
+            This endpoint manages all operations for stocks.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.StockController.GetAllStocks">
+            <summary>
+            Returns all stocks.
             </summary>
             <returns></returns>
         </member>
@@ -88,6 +137,83 @@
         <member name="M:LifecycleManagementAPI.Controllers.DeviceController.GetAllDevices">
             <summary>
             Returns all devices.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.EmployeeController">
+            <summary>
+            This endpoint manages all operations for employees.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.EmployeeController.GetAllEmployees">
+            <summary>
+            Returns all employees.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.ManufacturerController">
+            <summary>
+            This endpoint manages all operations for manufacturers.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ManufacturerController.GetAllManufacturers">
+            <summary>
+            Returns all manufacturers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.LaptopController">
+            <summary>
+            This endpoint manages all operations for Laptops.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.LaptopController.GetAllLapTops">
+            <summary>
+            Returns all Laptops.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.ModelController">
+            <summary>
+            This endpoint manages all operations for models.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ModelController.GetAllModels">
+            <summary>
+            Returns all models.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.PhoneController">
+            <summary>
+            This endpoint manages all operations for phones.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.PhoneController.GetAllPhones">
+            <summary>
+            Returns all phones.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.ServerController">
+            <summary>
+            This endpoint manages all operations for servers.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.ServerController.GetAllServers">
+            <summary>
+            Returns all servers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LifecycleManagementAPI.Controllers.WorkstationController">
+            <summary>
+            This endpoint manages all operations for workstations.
+            </summary>
+        </member>
+        <member name="M:LifecycleManagementAPI.Controllers.WorkstationController.GetAllWorkstations">
+            <summary>
+            Returns all workstations.
             </summary>
             <returns></returns>
         </member>

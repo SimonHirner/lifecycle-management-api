@@ -14,5 +14,10 @@ namespace LifecycleManagementAPI.DataObjects
         public DateTime ActivityDate { get; set; }
 
         public virtual List<Device> Devices { get; set; }
+
+        public int EmployeeId { get; set; }
+
+        [JsonIgnore]
+        public virtual Employee Employee  { get; set; }
     }
 }

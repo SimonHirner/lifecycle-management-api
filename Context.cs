@@ -17,21 +17,30 @@ namespace LifecycleManagementAPI
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            // Relationship: Model - Device
             builder.Entity<Model>()
                 .HasMany(m => m.Devices)
                 .WithOne(d => d.Model)
                 .HasForeignKey(d => d.ModelId);
 
+            // Relationship: Activity - Device 
             builder.Entity<Activity>()
                 .HasMany(a => a.Devices)
                 .WithOne(d => d.Activity)
                 .HasForeignKey(d => d.ActivityId);
-        }
 
-        /// <summary>
-        /// database table Categories
-        /// </summary>
-        public DbSet<Model> Categories { get; set; }
+            // Relationship: Manufacturer - Model 
+            builder.Entity<Manufacturer>()
+                .HasMany(ma => ma.Models)
+                .WithOne(mo => mo.Manufacturer)
+                .HasForeignKey(mo => mo.ManufacturerId);
+
+            // Relationship: Employee - Activity 
+            builder.Entity<Employee>()
+                .HasMany(e => e.Activities)
+                .WithOne(a => a.Employee)
+                .HasForeignKey(a => a.EmployeeId);
+        }
 
         /// <summary>
         /// database table Devices
@@ -87,6 +96,16 @@ namespace LifecycleManagementAPI
         /// database table Stocks
         /// </summary>
         public DbSet<Stock> Stocks { get; set; }
+
+        /// <summary>
+        /// database table Stocks
+        /// </summary>
+        public DbSet<Manufacturer> Manufacturers { get; set; }
+
+        /// <summary>
+        /// database table Stocks
+        /// </summary>
+        public DbSet<Model> Models { get; set; }
     }
 
 }

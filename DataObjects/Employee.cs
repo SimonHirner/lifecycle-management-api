@@ -1,6 +1,7 @@
 using System;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace LifecycleManagementAPI.DataObjects
 {
@@ -36,6 +37,8 @@ namespace LifecycleManagementAPI.DataObjects
         [MinLength(1)]
         [MaxLength(100)]
         public string JobTitle  { get; set; }
+
+        public virtual List<Activity> Activities { get; set; }
 
     }
 }
