@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Employee> GetEmployee(int id)
         {
-            var employee = context.Employees.Where(c => c.EmployeeId == id).FirstOrDefault();
+            var employee = context.Employees.Where(c => c.EmployeeId == id).Include(a => a.Activities).FirstOrDefault();
             //statement is translated into "SELECT * FROM Employees WHERE Employees.ID = id TOP 1" -- only first entry or null
 
             if (employee == null) return NotFound();

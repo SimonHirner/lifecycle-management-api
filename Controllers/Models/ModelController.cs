@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Model> GetModel(int id)
         {
-            var model = context.Models.Where(c => c.ModelId == id).FirstOrDefault();
+            var model = context.Models.Where(c => c.ModelId == id).Include(a => a.Devices).FirstOrDefault();
             //statement is translated into "SELECT * FROM Models WHERE Models.ID = id TOP 1" -- only first entry or null
 
             if (model == null) return NotFound();

@@ -38,6 +38,7 @@ namespace LifecycleManagementAPI
             Maintenance testActivity = new Maintenance()
             {
                 ActivityDate = new DateTime(),
+                Issue = "Broken screen",
                 EmployeeId = 1
             };
 

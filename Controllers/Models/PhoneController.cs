@@ -132,7 +132,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> DeletePhone([FromRoute] int id)
         {
-            var existingPhone = context.Phones.Where(c => c.ModelId == id).FirstOrDefault();
+            var existingPhone = context.Phones.Where(c => c.ModelId == id).Include(a => a.Devices).FirstOrDefault();
             if (existingPhone == null)
             {
                 return NotFound();

@@ -92,21 +92,6 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.AddActivity(LifecycleManagementAPI.DataObjects.Activity)">
-            <summary>
-            Adds a activity.
-            </summary>
-        </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.UpdateActivity(LifecycleManagementAPI.DataObjects.Activity)">
-            <summary>
-            Updates a activity.
-            </summary>
-        </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ActivityController.DeleteActivity(System.Int32)">
-            <summary>
-            Deletes a activity with the given id
-            </summary>
-        </member>
         <member name="T:LifecycleManagementAPI.Controllers.DisposalController">
             <summary>
             This endpoint manages all operations for disposals.
@@ -388,21 +373,6 @@
             </summary>
             <param name="id"></param>
             <returns></returns>
-        </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ModelController.AddModel(LifecycleManagementAPI.DataObjects.Model)">
-            <summary>
-            Adds a model.
-            </summary>
-        </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ModelController.UpdateModel(LifecycleManagementAPI.DataObjects.Model)">
-            <summary>
-            Updates a model.
-            </summary>
-        </member>
-        <member name="M:LifecycleManagementAPI.Controllers.ModelController.DeleteModel(System.Int32)">
-            <summary>
-            Deletes a model with the given id
-            </summary>
         </member>
         <member name="T:LifecycleManagementAPI.Controllers.PhoneController">
             <summary>

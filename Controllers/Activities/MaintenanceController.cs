@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Maintenance> GetMaintenance(int id)
         {
-            var maintenance = context.Maintenances.Where(c => c.ActivityId == id).FirstOrDefault();
+            var maintenance = context.Maintenances.Where(c => c.ActivityId == id).Include(a => a.Devices).FirstOrDefault();
             //statement is translated into "SELECT * FROM Maintenances WHERE Maintenances.ID = id TOP 1" -- only first entry or null
 
             if (maintenance == null) return NotFound();

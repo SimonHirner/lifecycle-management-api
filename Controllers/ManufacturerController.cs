@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Manufacturer> GetManufacturer(int id)
         {
-            var manufacturer = context.Manufacturers.Where(c => c.ManufacturerId == id).FirstOrDefault();
+            var manufacturer = context.Manufacturers.Where(c => c.ManufacturerId == id).Include(a => a.Models).FirstOrDefault();
             //statement is translated into "SELECT * FROM Manufacturers WHERE Manufacturers.ID = id TOP 1" -- only first entry or null
 
             if (manufacturer == null) return NotFound();

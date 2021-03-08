@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Stock> GetStock(int id)
         {
-            var stock = context.Stocks.Where(c => c.ActivityId == id).FirstOrDefault();
+            var stock = context.Stocks.Where(c => c.ActivityId == id).Include(a => a.Devices).FirstOrDefault();
             //statement is translated into "SELECT * FROM Stocks WHERE Stocks.ID = id TOP 1" -- only first entry or null
 
             if (stock == null) return NotFound();

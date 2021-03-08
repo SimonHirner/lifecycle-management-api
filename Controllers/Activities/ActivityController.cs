@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Activity> GetActivity(int id)
         {
-            var activity = context.Activities.Where(c => c.ActivityId == id).FirstOrDefault();
+            var activity = context.Activities.Where(c => c.ActivityId == id).Include(a => a.Devices).FirstOrDefault();
             //statement is translated into "SELECT * FROM Activities WHERE Activities.ID = id TOP 1" -- only first entry or null
 
             if (activity == null) return NotFound();

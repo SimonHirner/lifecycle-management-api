@@ -132,7 +132,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> DeleteServer([FromRoute] int id)
         {
-            var existingServer = context.Servers.Where(c => c.ModelId == id).FirstOrDefault();
+            var existingServer = context.Servers.Where(c => c.ModelId == id).Include(a => a.Devices).FirstOrDefault();
             if (existingServer == null)
             {
                 return NotFound();

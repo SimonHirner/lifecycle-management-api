@@ -132,7 +132,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> DeleteWorkstation([FromRoute] int id)
         {
-            var existingWorkstation = context.Workstations.Where(c => c.ModelId == id).FirstOrDefault();
+            var existingWorkstation = context.Workstations.Where(c => c.ModelId == id).Include(a => a.Devices).FirstOrDefault();
             if (existingWorkstation == null)
             {
                 return NotFound();

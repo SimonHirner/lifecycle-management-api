@@ -45,7 +45,7 @@ namespace LifecycleManagementAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Disposal> GetDisposal(int id)
         {
-            var disposal = context.Disposals.Where(c => c.ActivityId == id).FirstOrDefault();
+            var disposal = context.Disposals.Where(c => c.ActivityId == id).Include(a => a.Devices).FirstOrDefault();
             //statement is translated into "SELECT * FROM Disposals WHERE Disposals.ID = id TOP 1" -- only first entry or null
 
             if (disposal == null) return NotFound();
