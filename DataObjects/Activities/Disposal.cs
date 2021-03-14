@@ -6,6 +6,8 @@ namespace LifecycleManagementAPI.DataObjects
 {
     public class Disposal : Activity
     {
-        public bool ReadyForDisposal { get; set; }
+        public bool DataCleanedUp { get; set; }
+
+        public bool CompletelyUnreusable { get; set; }
     }
 }

@@ -6,6 +6,6 @@ namespace LifecycleManagementAPI.DataObjects
 {
     public class Workstation : Model
     {
-        
+         public string MainboardFormFactor { get; set; }
     }
 }

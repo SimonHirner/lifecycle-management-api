@@ -11,7 +11,7 @@ namespace LifecycleManagementAPI.DataObjects
         public int ActivityId { get; set; }
 
         [Required]
-        public DateTime ActivityDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         public virtual List<Device> Devices { get; set; }
 

@@ -7,9 +7,10 @@ namespace LifecycleManagementAPI.DataObjects
     public class Operation : Activity
     {
         [Required]
+        [MaxLength(50)]
         public string Location { get; set; }
 
-        [Required]
-        public Employee User { get; set; }
+        [MaxLength(50)]
+        public string Usage { get; set; }
     }
 }

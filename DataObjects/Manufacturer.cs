@@ -12,22 +12,18 @@ namespace LifecycleManagementAPI.DataObjects
 
         [Required]
         [MinLength(1)]
-        [MaxLength(100)]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         [Required]
-        [MinLength(1)]
-        [MaxLength(200)]
+        [MinLength(5)]
+        [MaxLength(100)]
         public string Address { get; set; }
 
-        [Required]
-        [MinLength(1)]
-        [MaxLength(30)]
+        [MaxLength(50)]
         public string TaxNumber  { get; set; }
 
-        [Required]
-        [MinLength(1)]
-        [MaxLength(30)]
+        [MaxLength(50)]
         public string CompanyRegistrationNumber  { get; set; }
 
         public virtual List<Model> Models { get; set; }

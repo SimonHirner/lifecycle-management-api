@@ -6,6 +6,6 @@ namespace LifecycleManagementAPI.DataObjects
 {
     public class Server : Model
     {
-        
+         public string FormFactor { get; set; }
     }
 }
