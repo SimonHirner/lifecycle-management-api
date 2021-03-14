@@ -10,15 +10,22 @@ namespace LifecycleManagementAPI.DataObjects
         public int DeviceId { get; set; }
 
         [Required]
-        [MinLength(1)]
-        [MaxLength(100)]
+        [MinLength(5)]
+        [MaxLength(50)]
         public string SerialNumber { get; set; }
 
         public DateTime WarrantyEnd { get; set; }
 
-        [MinLength(0)]
-        [MaxLength(500)]
-        public string Notes { get; set; }
+        [MaxLength(50)]
+        public string CPU { get; set; }
+
+        [MaxLength(50)]
+        public string RAM { get; set; }
+
+        [MaxLength(50)]
+        public string Memory { get; set; }
+
+        public string OperatingSystem { get; set; }
         
         public int ModelId { get; set; }
 

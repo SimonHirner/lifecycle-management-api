@@ -11,13 +11,16 @@ namespace LifecycleManagementAPI.DataObjects
         public int ModelId { get; set; }
 
         [Required]
-        [MinLength(1)]
-        [MaxLength(100)]
+        [MinLength(5)]
+        [MaxLength(50)]
         public string ModelName { get; set; }
 
-        [MinLength(0)]
-        [MaxLength(100)]
+        [MaxLength(50)]
         public string ModelNumber { get; set; }
+
+        public DateTime LaunchYear { get; set; }
+
+        public string Dimensions { get; set; }
         
         public virtual List<Device> Devices { get; set; }
 

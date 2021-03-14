@@ -7,6 +7,7 @@ namespace LifecycleManagementAPI.DataObjects
     public class Stock : Activity
     {
         [Required]
+        [MaxLength(50)]
         public string Location { get; set; }
     }
 }
